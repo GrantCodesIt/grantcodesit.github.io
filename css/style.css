@@ -47,7 +47,7 @@ body {
 
 img {
     display:block;
-    max-width: 100%;
+    max-width: 10%;
 }
 
 /* Header Styles */
@@ -68,4 +68,10 @@ h2 {
 
 h3 {
     font-size: var(--fs-h1);
+}
+
+.section__subtitle--intro,
+.section__subtitle--about {
+    background: var(--clr-accent);
+    font-family: var(--ff-second);
 }
