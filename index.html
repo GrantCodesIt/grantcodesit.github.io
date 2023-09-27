@@ -14,30 +14,31 @@
             <div class ="logo">
                 <img src="img/Frog_on_palm_frond.jpg" alt="frog" >
             </div>
-            <button class="navigateButton" aria-label="toggleNavigation">
+            <button class="nav-toggle" aria-label="toggle navigation">
                 <span class = "hamburger"> </span>
             </button>
-            <nav class="navigation">
-                <ul class="navigationList" >
-                    <li class="navigationItem"><a href="home" class=""navigationLink>Home</a></li>
-                    <li class="navigationItem"><a href="#Services" class=""navigationLink>My Services</a></li>
-                    <li class="navigationItem"><a href="#aboutMe" class=""navigationLink>About me</a></li>
-                    <li class="navigationItem"><a href="#" class=""navigationLink>My Work</a></li>
+            <nav class="nav">
+                <ul class="nav__list" >
+                    <li class="nav__item"><a href="home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#Services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#aboutMe" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">My Work</a></li>
                 </ul>
             </nav>
         </button>
         </header>
         <!-- Intro -->
         <section class="intro" id="home">
-            <h1 class="sectionTitleIntro"> 
+            <h1 class="section__title section__title--intro"> 
                 Hello, I am <strong> Grant Helms Zelenay</strong>
             </h1>
-            <p class = "sectionSubtitleIntro">full-stack developer</p>
+            <p class="section__subtitle section__subtitle--intro"> full-stack developer </p>
             <img src="img/Frog_on_palm_frond.jpg" alt="frog" >
         </section>
+
         <!-- My Services-->
-        <section class="myServices" id="Services" >
-            <h2 class="sectionTitleServices"> What I do</h2>
+        <section class="my-services" id="services" >
+            <h2 class="section__title section__title--services"> What I do</h2>
             <div class="services">
                 <div class="service">
                     <h3> #1</h3>
@@ -53,16 +54,15 @@
                     <h3> #3</h3>
                     <p> Paragraph </p>
                 </div> <!-- end of service-->
-                
             </div> <!-- end of services-->
             <a href="img/Frog_on_palm_frond.jpg" class="btn"> My Work</a> 
         </section>
 
         <!-- about me-->
-        <section class="aboutMe" id="aboutMe">
-            <h2 class="sectionTitleAbout"> Who I am</h2>
-            <p class="sectionSubtitleAbout"> I am a gamer </p>
-            <div class="aboutMeBody"> 
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about"> Who I am</h2>
+            <p class="section__subtitle section__subtitle--about"> I am a gamer </p>
+            <div class="about-me__body"> 
                 <p></p>
             </div>
             <img src="img/Frog_on_palm_frond.jpg" alt="frog">
@@ -70,25 +70,25 @@
         
   <!-- My Work-->
         <section class="myWork" id="work">
-            <h2 class="sectionTitle"> My Work</h2>
-            <p class="sectionSubtitle"> Test</p>
+            <h2 class="section__title"> My Work</h2>
+            <p class="section__subtitle"> Test</p>
 
             <div class="portfolio">
                 <!-- Item 01-->
-                <a href="#" class="portfolioItem">
-                    <img src="img/Frog_on_palm_frond.jpg" alt="frog" class="portfolioImg" >
+                <a href="#" class="portfolio__item">
+                    <img src="img/Frog_on_palm_frond.jpg" alt="frog" class="portfolio__img" >
                 </a>
                  <!-- Item 02-->
-                 <a href="#" class="portfolioItem">
-                    <img src="img/Frog_on_palm_frond.jpg" alt="frog" class="portfolioImg" >
+                 <a href="#" class="portfolio__item">
+                    <img src="img/Frog_on_palm_frond.jpg" alt="frog" class="portfolio__img" >
                 </a>
                  <!-- Item 03-->
-                 <a href="#" class="portfolioItem">
-                    <img src="img/Frog_on_palm_frond.jpg" alt="frog" class="portfolioImg" >
+                 <a href="#" class="portfolio__item">
+                    <img src="img/Frog_on_palm_frond.jpg" alt="frog" class="portfolio__img" >
                 </a>
                  <!-- Item 04-->
-                 <a href="#" class="portfolioItem">
-                    <img src="img/Frog_on_palm_frond.jpg" alt="frog" class="portfolioImg" >
+                 <a href="#" class="portfolio__item">
+                    <img src="img/Frog_on_palm_frond.jpg" alt="frog" class="portfolio__img" >
                 </a>
             </div>
         </section>
@@ -97,10 +97,10 @@
         <footer>
             <a href="mailto:grant.zelenay@outlook.com" class="footerLink"> Grant.Zelenay@outlook.com </a>
             <ul class="social-list">
-                <li class="socialListItem"><a class ="socialListLink" href="https://google.com"> Medium</a></li>
-                <li class="socialListItem"><a class ="socialListLink" href="https://google.com"> LinkedIn</a></li>
-                <li class="socialListItem"><a class ="socialListLink" href="https://google.com"> Email</a></li>
-                <li class="socialListItem"><a class ="socialListLink" href="https://google.com"> Github</a></li>
+                <li class="social-list__item"><a class ="social-list__link" href="https://google.com"> Medium</a></li>
+                <li class="social-list__item"><a class ="social-list__link" href="https://google.com"> LinkedIn</a></li>
+                <li class="social-list__item"><a class ="social-list__link" href="https://google.com"> Email</a></li>
+                <li class="social-list__item"><a class ="social-list__link" href="https://google.com"> Github</a></li>
             </ul>
         </footer>
     </body>
