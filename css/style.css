@@ -45,6 +45,10 @@ body {
     line-height: 1.6;
 }
 
+section {
+    padding: 5em 1em;
+}
+
 img {
     display:block;
     max-width: 10%;
@@ -75,3 +79,4 @@ h3 {
     background: var(--clr-accent);
     font-family: var(--ff-second);
 }
+
