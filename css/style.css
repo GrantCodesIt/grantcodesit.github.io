@@ -124,6 +124,47 @@ header {
 .nav__link:hover {
     color: var(--clr-accent); 
 }
+.nav-toggle {
+    padding: .5em;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    position: absolute;
+    right: 1em;
+    top: 1em;
+    z-index: 100;
+}
+/* Navigation Button (aka Hamburger) */
+.hamburger {
+    display: block;
+    position: relative;
+}
+.hamburger::before,
+.hamburger::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.hamburger,
+.hamburger::after,
+.hamburger::before {
+    height: 3px;
+    width: 2em;
+    background: var(--clr-dark);
+    border-radius: 1em;
+    transition: transform 250ms ease-in-out;
+}
+
+.hamburger::before {
+    top: 6px;
+}
+.hamburger::after { 
+    bottom: 6px
+}
+
+
+
 
 /* Header Styles */
 h1,
@@ -342,7 +383,7 @@ h3 {
 }
 
 .social-list__item {
-    margin:: 0 0.5em;
+    margin: 0 0.5em;
 }
 
 .social-list__link {
