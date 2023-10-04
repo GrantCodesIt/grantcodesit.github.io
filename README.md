@@ -1,0 +1,10 @@
+# grantcodesit.github.io
+
+## Grant Helm Zelenay's Portfolio Website
+---
+This website showcases the skills and projects I have learned through my coding career. 
+It uses HTML/CSS and Javascript currently. In the future, the plan is to add nodeJs to showcase my full stack abilities. 
+Other future plans are to include more coding projects and individual pages to showcase these objects while I learn more about web development.
+---
+Credits: This webpage was inspired by **Kevin Powell** at freeCodeCamp.org who gives an excellent tutorial on how to build a website.
+The link to his social media is https://www.youtube.com/@KevinPowell.
