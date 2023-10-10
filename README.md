@@ -1,6 +1,7 @@
 # grantcodesit.github.io
 Link: https://grantcodesit.github.io/
- Grant Helm Zelenay's Portfolio Website
+
+Grant Helm Zelenay's Portfolio Website
 
 This website showcases the skills and projects I have learned through my coding career. 
 It uses HTML/CSS and Javascript currently. In the future, the plan is to add nodeJs to showcase my full stack abilities. 
